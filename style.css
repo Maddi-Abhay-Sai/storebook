@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f6f7fb, #e9ecf5);
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Input fields */
+input {
+    padding: 10px;
+    margin: 8px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px #3498db;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e74c3c;
+    transform: scale(1.05);
+}
+
+/* Book list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Book card */
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+/* Book image */
+img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Cart section */
+h3 {
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* Total box */
+#total {
+    font-size: 22px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Buy button special */
+button:last-child {
+    background: #27ae60;
+}
+
+button:last-child:hover {
+    background: #2ecc71;
+}
